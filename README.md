@@ -70,7 +70,7 @@ youtube-content-summarizer/
 ├── .env                # Environment variables
 ├── requirements.txt    # Required Python packages
 ├── nutrition_app.py      # Main application code
-└── README.md           # Project documentation
+└─- README.md           # Project documentation
 ```
 
 ## Technology Stack
