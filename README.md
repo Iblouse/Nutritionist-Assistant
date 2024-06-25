@@ -29,8 +29,8 @@ To run the Diet Advisor App locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/iblouse/diet-advisor-app.git
-    cd diet-advisor-app
+    git clone https://github.com/Iblouse/Nutritionist-Assistant.git
+    cd Nutritionist-Assistant
     ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
