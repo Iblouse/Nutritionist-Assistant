@@ -53,7 +53,7 @@ To run the Diet Advisor App locally, follow these steps:
 
 5. **Run the app**:
     ```bash
-    streamlit run app.py
+    streamlit run nutrition_app.py 
     ```
 
 ## Usage
