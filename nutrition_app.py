@@ -68,7 +68,7 @@ if uploaded_file is not None:
     st.image(image, caption="Uploaded Image", use_column_width=True)
 
 # Button for the user to submit and get food analysis
-submit = st.button("Tell me about this food")
+submit = st.button("Give me advice about this food")
 
 # Input prompt for the generative model
 input_prompt = """
