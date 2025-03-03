@@ -62,7 +62,7 @@ def input_image_details(uploaded_file):
         raise FileNotFoundError("No file uploaded")
 
 # Initialize the Streamlit app
-st.set_page_config(page_title="Diet Advisor App", layout="wide")
+st.set_page_config(page_title="Diet Advisor App", layout="centered")
 
 # Set the header for the app
 st.header("🍎 Diet Advisor App")
@@ -76,7 +76,7 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     
     # **Resize the image to a reasonable size for display**
-    max_width = 400  # Adjust width to fit screen
+    max_width = 600  # Adjust width to fit screen
     image.thumbnail((max_width, max_width))  # Maintain aspect ratio
     
     st.image(image, caption="📷 Uploaded Image", use_container_width=False, width=max_width)
