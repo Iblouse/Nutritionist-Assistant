@@ -76,10 +76,10 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     
     # **Resize the image to a reasonable size for display**
-    max_width = 700  # Adjust width to fit screen
+    max_width = 600  # Adjust width to fit screen
     image.thumbnail((max_width, max_width))  # Maintain aspect ratio
     
-    st.image(image, caption="📷 Uploaded Image", use_container_width=False, width=max_width)
+    st.image(image, caption="📷 Uploaded Image", width=max_width)
 
 # Button for the user to submit and get food analysis
 submit = st.button("🍽️ Give me advice about this food")
