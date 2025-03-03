@@ -29,7 +29,7 @@ def get_gemini_response(input_prompt, image, retries=3, delay=5):
     """
     for attempt in range(retries):
         try:
-            response = model.generate_content([input_prompt, image[0]], timeout=120)
+            response = model.generate_content([input_prompt, image[0]])
             return response.text
         except Exception as e:
             st.warning(f"Attempt {attempt+1} failed: {e}")
@@ -76,7 +76,7 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     
     # **Resize the image to a reasonable size for display**
-    max_width = 600  # Adjust width to fit screen
+    max_width = 700  # Adjust width to fit screen
     image.thumbnail((max_width, max_width))  # Maintain aspect ratio
     
     st.image(image, caption="📷 Uploaded Image", use_container_width=False, width=max_width)
