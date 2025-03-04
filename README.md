@@ -1,3 +1,4 @@
+![App](https://github.com/Iblouse/Nutritionist-Assistant/blob/main/DietApp.png)
 # Diet Advisor App
 
 Diet Advisor App is a web application designed to provide detailed nutritional analysis and advice based on images of food items. Users can upload images of their meals, and the app, powered by generative AI, will analyze the food items, calculate total calories, and provide insights on the nutritional content and healthiness of the food.
